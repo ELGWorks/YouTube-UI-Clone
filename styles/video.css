@@ -35,26 +35,30 @@
     margin-bottom: 12px;
 }
 
+/* Default breakpoint (Mobile view) */
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 16px;
     row-gap: 40px;
 }
 
-@media (max-width: 600px) {
+/* Tablet */
+@media (min-width: 600px) {
     .video-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 601px) and (max-width: 999px) {
+/* Small Desktop (1366-1600px wide) */
+@media (min-width: 1000px){
     .video-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 1000px){
+/* Large Desktop (1920px and up) */
+@media (min-width: 1400px){
     .video-grid{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
