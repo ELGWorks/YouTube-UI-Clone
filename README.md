@@ -1,7 +1,7 @@
 # 🎬 YouTube UI Clone
 
 <p align="center">
-  <a href="https://elgworks.github.io/YouTube-UI-Clone/">
+  <a href="https://elgworks.github.io/YouTube-UI-Clone/" target="_blank">
     <img src="assets/screenshot.png" alt="Preview" width="800"/>
   </a>
 </p>
@@ -22,4 +22,8 @@
 
 ## 🚀 Live Demo
 
-[View Live Site](https://elgworks.github.io/YouTube-UI-Clone/)
+<p>
+  <a href="https://elgworks.github.io/YouTube-UI-Clone/" target="_blank">
+    View Live Site
+  </a>
+</p>
